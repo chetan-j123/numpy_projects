@@ -1,8 +1,7 @@
 import numpy as np
 import random
 
-# Menu for user
-
+# Menu for user   
 def main():
  while True:
   print("🌦️ What would you like to calculate?")
@@ -82,3 +81,4 @@ new_data = added_weather_data.reshape(days, columns)
 uc=str(input("do you want to start =(yes or no)"))
 if(uc=="yes"):
    main()
+
